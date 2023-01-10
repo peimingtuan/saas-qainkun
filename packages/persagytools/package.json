@@ -1,0 +1,21 @@
+{
+  "name": "persagytools",
+  "version": "1.0.5",
+  "description": "",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "leo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "crypto-js": "^4.1.1",
+    "js-cookie": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.1"
+  }
+}
