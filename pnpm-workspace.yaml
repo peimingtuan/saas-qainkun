@@ -1,0 +1,2 @@
+packages: 
+  - 'packages/**' # 存放编写的组件的

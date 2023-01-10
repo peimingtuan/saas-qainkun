@@ -1,0 +1,20 @@
+/* 公用样式覆盖文件 */
+.p-modal-main-full {
+    top: 50px;
+}
+
+.p-drop-content {
+    z-index: 8000 !important;
+}
+
+.p-drawer {
+    top: 50px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 111111s;
+    -webkit-transition: color 11111s ease-out, background-color 111111s ease-out;
+}

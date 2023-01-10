@@ -1,0 +1,378 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 1,
+    "workspacePrefix": "/Users/mac/company/saas"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "saasweb",
+      "version": "0.1.0",
+      "private": true,
+      "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "update:packages": "pnpm -C packages/persagy-tools build"
+      },
+      "dependencies": {
+        "ant-design-vue": "^3.2.1",
+        "axios": "^0.26.1",
+        "core-js": "^3.21.1",
+        "element-ui": "^2.15.8",
+        "lodash": "^4.17.21",
+        "meri-design": "1.5.2",
+        "moment": "^2.29.2",
+        "persagy-tools": "workspace:^1.0.0",
+        "qs": "^6.10.3",
+        "svg-sprite-loader": "^6.0.11",
+        "vue": "^2.6.14",
+        "vue-router": "^3.5.3",
+        "vuex": "^3.6.2"
+      },
+      "devDependencies": {
+        "@babel/core": "^7.17.9",
+        "@babel/eslint-parser": "^7.17.0",
+        "@babel/runtime": "^7.17.9",
+        "@vue/cli-plugin-babel": "~5.0.4",
+        "@vue/cli-plugin-eslint": "~5.0.4",
+        "@vue/cli-plugin-router": "~5.0.4",
+        "@vue/cli-plugin-vuex": "~5.0.4",
+        "@vue/cli-service": "~5.0.4",
+        "@vue/eslint-config-standard": "^6.1.0",
+        "babel-plugin-component": "^1.1.1",
+        "crypto-js": "^4.1.1",
+        "eslint": "^7.32.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "eslint-plugin-vue": "^8.6.0",
+        "less": "^4.1.2",
+        "less-loader": "^8.1.1",
+        "postcss": "^8.4.12",
+        "qiankun": "2.6.3",
+        "query-string": "^7.1.1",
+        "regenerator-runtime": "^0.13.9",
+        "url-parse": "^1.5.10",
+        "vue-template-compiler": "^2.6.14",
+        "webpack-version-zip": "^0.1.1"
+      }
+    },
+    "prefix": "/Users/mac/company/saas"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/mac/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/mac/company/saas/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/mac/company/saas",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/core/7.17.9",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/core",
+      "rawSpec": "^7.17.9"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/eslint-parser/7.17.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/eslint-parser",
+      "rawSpec": "^7.17.0"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.17.9"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vue/cli-plugin-babel/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vue/cli-plugin-babel",
+      "rawSpec": "~5.0.4"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vue/cli-plugin-eslint/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vue/cli-plugin-eslint",
+      "rawSpec": "~5.0.4"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vue/cli-plugin-router/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vue/cli-plugin-router",
+      "rawSpec": "~5.0.4"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vue/cli-plugin-vuex/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vue/cli-plugin-vuex",
+      "rawSpec": "~5.0.4"
+    }
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vue/cli-service/5.0.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vue/cli-service",
+      "rawSpec": "~5.0.4"
+    }
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@vue/eslint-config-standard/6.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@vue/eslint-config-standard",
+      "rawSpec": "^6.1.0"
+    }
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/babel-plugin-component/1.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "babel-plugin-component",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/crypto-js/4.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "crypto-js",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/7.32.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "^7.32.0"
+    }
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-import/2.26.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-import",
+      "rawSpec": "^2.26.0"
+    }
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-node/11.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-node",
+      "rawSpec": "^11.1.0"
+    }
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-promise/5.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-promise",
+      "rawSpec": "^5.2.0"
+    }
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-vue/8.6.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-vue",
+      "rawSpec": "^8.6.0"
+    }
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/less/4.1.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "less",
+      "rawSpec": "^4.1.2"
+    }
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/less-loader/8.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "less-loader",
+      "rawSpec": "^8.1.1"
+    }
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss/8.4.12",
+    "wanted": {
+      "dependentId": ".",
+      "name": "postcss",
+      "rawSpec": "^8.4.12"
+    }
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/qiankun/2.6.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "qiankun",
+      "rawSpec": "2.6.3"
+    }
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/query-string/7.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "query-string",
+      "rawSpec": "^7.1.1"
+    }
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/regenerator-runtime/0.13.9",
+    "wanted": {
+      "dependentId": ".",
+      "name": "regenerator-runtime",
+      "rawSpec": "^0.13.9"
+    }
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/url-parse/1.5.10",
+    "wanted": {
+      "dependentId": ".",
+      "name": "url-parse",
+      "rawSpec": "^1.5.10"
+    }
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vue-template-compiler/2.6.14",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue-template-compiler",
+      "rawSpec": "^2.6.14"
+    }
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-version-zip/0.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "webpack-version-zip",
+      "rawSpec": "^0.1.1"
+    }
+  },
+  "29 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/ant-design-vue/3.2.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "ant-design-vue",
+      "rawSpec": "^3.2.1"
+    }
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/axios/0.26.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "axios",
+      "rawSpec": "^0.26.1"
+    }
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/core-js/3.21.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "core-js",
+      "rawSpec": "^3.21.1"
+    }
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/element-ui/2.15.8",
+    "wanted": {
+      "dependentId": ".",
+      "name": "element-ui",
+      "rawSpec": "^2.15.8"
+    }
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lodash/4.17.21",
+    "wanted": {
+      "dependentId": ".",
+      "name": "lodash",
+      "rawSpec": "^4.17.21"
+    }
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/meri-design/1.5.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "meri-design",
+      "rawSpec": "1.5.2"
+    }
+  },
+  "35 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/moment/2.29.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "moment",
+      "rawSpec": "^2.29.2"
+    }
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/qs/6.10.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "qs",
+      "rawSpec": "^6.10.3"
+    }
+  },
+  "37 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svg-sprite-loader/6.0.11",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svg-sprite-loader",
+      "rawSpec": "^6.0.11"
+    }
+  },
+  "38 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vue/2.6.14",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue",
+      "rawSpec": "^2.6.14"
+    }
+  },
+  "39 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vue-router/3.5.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue-router",
+      "rawSpec": "^3.5.3"
+    }
+  },
+  "40 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vuex/3.6.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vuex",
+      "rawSpec": "^3.6.2"
+    }
+  },
+  "41 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "In : No matching version found for persagy-tools@^1.0.0 inside the workspace",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+      "stack": "pnpm: In : No matching version found for persagy-tools@^1.0.0 inside the workspace\n    at tryResolveFromWorkspace (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:85268:15)\n    at resolveNpm (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:85159:39)\n    at Object.resolve (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:85391:40)\n    at ctx.requestsQueue.add.priority (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:71356:75)\n    at run (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:71095:90)\n    at PQueue._tryToStartAnother (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:71049:13)\n    at /Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:71108:16\n    at new Promise (<anonymous>)\n    at PQueue.add (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:71090:16)\n    at resolveAndFetch (/Users/mac/.nvm/versions/node/v14.16.1/lib/node_modules/pnpm/dist/pnpm.cjs:71356:55)"
+    }
+  }
+}
